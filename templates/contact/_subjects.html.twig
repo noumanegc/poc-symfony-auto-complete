@@ -1,0 +1,9 @@
+{% for subject in subjects %}
+	<li class="list-group-item list-group-item-action" role="option" data-autocomplete-value="{{ subject.id }}">
+		{{ subject.name }}
+	</li>
+{% else %}
+	<li class="list-group-item text-muted" role="option" aria-disabled="true">
+		Aucun résultat trouvé
+	</li>
+{% endfor %}
