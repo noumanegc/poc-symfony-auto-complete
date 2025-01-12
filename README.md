@@ -2,7 +2,7 @@
 
 ## Prérequis
 
--   PHP 8.3 ou supérieur
+-   PHP 8.3
 -   Composer
 -   Node.js & npm
 -   Git
